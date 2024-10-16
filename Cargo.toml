@@ -1,0 +1,14 @@
+[package]
+name = "polkadot-light-zksnark"
+version = "0.1.0"
+authors = ["David Pere <davidopuene8@gmail.com>"]
+edition = "2021"
+description = "A crate for integrating Polkadot light node functionality with zkSNARKs."
+license = "MIT"
+
+[dependencies]
+subxt-lightclient = { version = "0.37.0" }
+bellman = { version = "0.14.0" }
+merkle_light = { version = "0.4.0" }
+rand = { version = "0.8" }
+sha2 = { version = "0.10" }
